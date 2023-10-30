@@ -6,7 +6,7 @@ def test_bmi_normal_weight():
     assert(test==w)
 
 def test_bmi_under_weight():
-    test = 1
+    test = -1
     w=Lab2.bmi.calculate_bmi(height=1.71,weight=50)
     assert(test==w)
 
